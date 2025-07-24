@@ -474,4 +474,21 @@
         max-width: 100px;
         padding: 10px;
     }
+    .join-btn {
+        width: 100%;
+        max-width: 100px;
+        padding: 10px;
+    }
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        padding: 0 15px;
+    }
+    .footer-title-container {
+        width: 100%;
+        max-width: 360px;
+    }
+    .footer-description {
+        font-size: 1rem;
+    }
 }
