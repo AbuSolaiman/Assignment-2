@@ -117,17 +117,14 @@
     padding-top: 80px;
     gap: 50px;
 }
-
 .lovers-img {
     flex: 1;
     position: relative;
 }
-
 .lovers-img img:first-child {
     width: 100%;
     height: auto;
 }
-
 .trusted-badge {
     position: absolute;
     top: -100px;
@@ -140,14 +137,121 @@
     flex: 1;
     padding-left: 50px;
 }
-
 .lovers-title {
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
-
 .lovers-list li {
     margin-bottom: 20px;
     font-size: 1.3rem;
+}
+.deals-title {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.deals-description {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 890px;
+    margin: 0 auto;
+}
+.deals-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+}
+.deals-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 360px;
+}
+.deals-container-right {
+    flex: 1;
+}
+.deal-card-one {
+    background-image: url(../assets/deal-bloom.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deal-card-two {
+    background-image: url(./assets/deal-ana.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deal-card-three {
+    background-image: url(./assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    max-width: 760px;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-card-one::before,
+.deal-card-two::before,
+.deal-card-three::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.deal-title-one,
+.deal-title-two {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.deal-title-three {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.deal-description-one,
+.deal-description-two {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.deal-description-three {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: underline;
 }
