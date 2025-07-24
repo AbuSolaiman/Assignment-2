@@ -39,6 +39,9 @@
     gap: 35px;
     list-style: none;
 }
+.navbar nav ul li a {
+    text-decoration: none;
+}
 .nav-link {
     color: #242331;
     font-weight: 500;
@@ -294,4 +297,136 @@
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
+}
+@media (max-width: 767px) {
+    .navbar,
+    .hero-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        gap: 20px;
+    }
+    .navbar nav ul {
+        display: none;
+    }
+    .cart-icon {
+        align-self: flex-end;
+        padding-right: 20px;
+    }
+    .logo {
+        width: 90px;
+        padding: 0 10px;
+    }
+    .hero-container {
+        flex-direction: column-reverse;
+    }
+    .hero-content,
+    .hero-image {
+        margin-top: 0;
+    }
+    .hero-title {
+        font-size: 2rem;
+        margin: 25px;
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .hero-description {
+        font-size: 1.1rem;
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+    .product-title {
+        font-size: 1.5rem;
+    }
+    .product-description {
+        font-size: 1rem;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .planets-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .planet-card img {
+        width: 160px;
+        max-width: 250px;
+    }
+    .btn-primary {
+        width: 160px;
+        max-width: 250px;
+    }
+    .plants-lover-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+    .trusted-badge {
+        display: none;
+    }
+    .lovers-content {
+        padding: 20px;
+    }
+    .lovers-title {
+        font-size: 1.3rem;
+    }
+    .lovers-list li {
+        font-size: 1rem;
+        margin: 15px;
+    }
+    .deals-title {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    .deals-description {
+        font-size: 0.9rem;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .deals-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    .deals-container-left,
+    .deals-container-right {
+        width: 100%;
+        max-width: 360px;
+    }
+    .deal-card-one,
+    .deal-card-two,
+    .deal-card-three {
+        height: 200px;
+    }
+    .deal-title-one,
+    .deal-title-two,
+    .deal-title-three {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .deal-description-one,
+    .deal-description-two,
+    .deal-description-three {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .join-container {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .join-title {
+        font-size: 1.3rem;
+    }
+    .join-input {
+        width: 100%;
+        max-width: 100px;
+        padding: 10px;
+    }
 }
