@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+.page-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.color-primary {
+    color: rgba(12, 12, 12, 0.5);
+}
+#hero-titles {
+    color: #e65c0d;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+.logo{
+    width: 120px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px,0;
+    gap: 35px;
+}
+.navbar nav ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.nav-link{
+    color: #242331;
+    font-weight: 500;
+}
+.menu-link{
+    color: #8b89a5;
+}
