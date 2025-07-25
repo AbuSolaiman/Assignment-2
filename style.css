@@ -179,7 +179,7 @@
     flex: 1;
 }
 .deal-card-one {
-    background-image: url(../assets/deal-bloom.png);
+    background-image: url(./assets/deal-bloom.png);
     background-size: cover;
     background-position: center;
     height: 200px;
